@@ -40,6 +40,7 @@ class PingServer {
             DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port);
             serverSocket.send(sendPacket);
             System.out.println("Reply to the client sent");
+            //serverSocket.close();
         } // while
     }
 }

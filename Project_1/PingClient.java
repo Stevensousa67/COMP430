@@ -23,7 +23,7 @@ public class PingClient {
             clientSocket.send(sendPacket); // Send the packet to the server
 
             // Set a timeout for receiving the response
-            clientSocket.setSoTimeout(1000); // Timeout of 1 second
+            clientSocket.setSoTimeout(2000); // Timeout of 1 second
 
             DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length); 
 
