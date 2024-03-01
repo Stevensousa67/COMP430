@@ -13,6 +13,7 @@ class PingServer {
         byte[] receiveData = new byte[1024]; // Define the receiveData array
         // Processing loop
         while (true) {
+            System.out.println();
             // create a random number generator for use in packet loss simulation
             Random random = new Random();
             // create a datagram packet to hold incoming UDP packet
@@ -33,6 +34,7 @@ class PingServer {
             // if rand is less than 4 we consider the packet lost and do not reply
             if (rand < 4) {
                 System.out.println("Reply not sent");
+                System.out.println();
                 continue;
             }
             // otherwise, the server responds
@@ -40,7 +42,6 @@ class PingServer {
             DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port);
             serverSocket.send(sendPacket);
             System.out.println("Reply to the client sent");
-            //serverSocket.close();
         } // while
     }
 }
