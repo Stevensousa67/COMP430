@@ -147,13 +147,22 @@ public class PacketManager {
 		logger.info(String.format("    Number of packets Resent:            %4d", packetsResent));
 		logger.info(String.format("    Breakdown:"));
 		for (int i = 0; i < 5; i++)
-			logger.info(String.format("        Number of %3s Packets:           %4d", PacketType.toString(i), packetCounts[i]));
+			logger.info(String.format("        Number of %3s Packets:           %4d", PacketType.toString(i),
+					packetCounts[i]));
 		logger.info(String.format("    Total Number of Packets Sent:        %4d", packetsSent));
 		logger.info(String.format(""));
 		logger.info(String.format("    Number of ACKs received:             %4d", acksReceived));
 		logger.info(String.format("    Number of unexpected ACKs received:  %4d", badAcksReceived));
 		logger.info(String.format(""));
 		udpSocket.stats();
+	}
+	
+	public void waitForAcknowledgement() {
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 	private final int MAX_PACKETS = Settings.WINDOW_SIZE - 1;

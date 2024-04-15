@@ -2,6 +2,7 @@ package Common;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;
+import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
@@ -12,29 +13,30 @@ public class MyLogger {
 	
 	public MyLogger(String name) {
 		boolean append = true;
-	    FileHandler handler;
-	    
+		FileHandler handler;
+
 		try {
 			this.name = name;
-			
+
 			if (logger != null)
 				return;
-			
+
 			// Set the log format style.
-		    System.setProperty("java.util.logging.SimpleFormatter.format", "%1$tF %1$tT %4$s %5$s%6$s%n");
-		    
-			//handler = new FileHandler(Settings.LOG_FILE, append);
-			handler = new FileHandler("C:/Users/sattar/proj3" + name + ".log", append);
+			System.setProperty("java.util.logging.SimpleFormatter.format", "%1$tF %1$tT %4$s %5$s%6$s%n");
 
-		    logger = Logger.getLogger(name);
-		    
-	        SimpleFormatter formatter = new SimpleFormatter();  
+			String logFileName = name + ".log";
+			String logFilePath = Paths.get(System.getProperty("user.dir"), logFileName).toString();
+			handler = new FileHandler(logFilePath, append);
 
-	        handler.setFormatter(formatter);  
+			logger = Logger.getLogger(name);
 
-		    logger.addHandler(handler);
-		    
-		    logger.info("Log started for: " + name);
+			SimpleFormatter formatter = new SimpleFormatter();
+
+			handler.setFormatter(formatter);
+
+			logger.addHandler(handler);
+
+			logger.info("Log started for: " + name);
 		} catch (SecurityException | IOException e) {
 			System.out.println("Unable to create log");
 			e.printStackTrace();

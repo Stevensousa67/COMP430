@@ -1,0 +1,295 @@
+2024-04-14 21:38:53 INFO Log started for: Server.main
+2024-04-14 21:38:53 INFO [Server.main] Starting
+2024-04-14 21:38:53 INFO [Server.main] Skipping First Packet in Window: false
+2024-04-14 21:38:53 INFO [Server.main] Skipping All Packets in Window:  false
+2024-04-14 21:38:53 INFO [Server.UDP] Initializing Server on Port: 2015
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- REQ packet for file: README.txt
+2024-04-14 21:38:55 INFO [Server.UDP] Connection established with client: /127.0.0.1, Port:59277
+2024-04-14 21:38:55 INFO [Server.Sender] Initiating File Transmission: README.txt, Size: 2137(bytes)
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 2137(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:56 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:38:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:38:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:06 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:06 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:07 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:07 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:08 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:08 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 9(bytes) of the file.
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-14 21:39:09 INFO [Server.UDP] Sending   -----> EOT packet 
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-14 21:39:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-14 21:39:09 INFO [Server.Sender] File Sent. Total Bytes: 4258(bytes)
+2024-04-14 21:39:09 INFO [Server.PacketManager] Packet Manager:
+2024-04-14 21:39:09 INFO [Server.PacketManager]     Expected Number of Sent Packets:      135
+2024-04-14 21:39:09 INFO [Server.PacketManager]     Number of packets Resent:               0
+2024-04-14 21:39:09 INFO [Server.PacketManager]     Breakdown:
+2024-04-14 21:39:09 INFO [Server.PacketManager]         Number of ACK Packets:              0
+2024-04-14 21:39:09 INFO [Server.PacketManager]         Number of REQ Packets:              0
+2024-04-14 21:39:09 INFO [Server.PacketManager]         Number of DAT Packets:            134
+2024-04-14 21:39:09 INFO [Server.PacketManager]         Number of ERR Packets:              0
+2024-04-14 21:39:09 INFO [Server.PacketManager]         Number of EOT Packets:              1
+2024-04-14 21:39:09 INFO [Server.PacketManager]     Total Number of Packets Sent:         135
+2024-04-14 21:39:09 INFO [Server.PacketManager] 
+2024-04-14 21:39:09 INFO [Server.PacketManager]     Number of ACKs received:              135
+2024-04-14 21:39:09 INFO [Server.PacketManager]     Number of unexpected ACKs received:     0
+2024-04-14 21:39:09 INFO [Server.PacketManager] 
+2024-04-14 21:39:09 INFO [Server.UDP] Total Data: 4258
+2024-04-14 21:39:09 INFO [Server.UDP] Total Data Including Packet Headers: 5878
