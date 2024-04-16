@@ -12,36 +12,22 @@ public class Receiver {
 	private MyLogger logger = new MyLogger("Client.Receiver");
 
 	public void getFile(String fileName) {
-		Packet requestPacket = prepareRequestPacket(fileName);
+		try (DatagramSocket clientSocket = new DatagramSocket()) {
+			clientSocket.setSoTimeout(Settings.TIMEOUT_DURATION);
 
-		try {
-			receiveAndProcessData(requestPacket);
-		} catch (Exception e) {
-			handleException(e);
-		}
-	}
+			InetAddress serverAddress = InetAddress.getByName("localhost");
+			Packet requestPacket = new Packet(PacketType.REQ, 0, fileName.length(), fileName.getBytes());
+			DatagramPacket initialPacket = new DatagramPacket(requestPacket.getBytes(), requestPacket.getBytes().length,
+					serverAddress, Settings.PORT);
 
-	private Packet prepareRequestPacket(String fileName) {
-		return new Packet(PacketType.REQ, 0, fileName.length(), fileName.getBytes());
-	}
+			clientSocket.send(initialPacket);
+			logger.sent(initialPacket.getData());
 
-	private void receiveAndProcessData(Packet requestPacket) throws Exception {
-		DatagramSocket clientSocket = new DatagramSocket();
-		clientSocket.setSoTimeout(Settings.TIMEOUT_DURATION);
+			StringBuilder fileContent = new StringBuilder();
+			int totalDataSize = 0;
+			int expectedSeqNo = 0;
 
-		InetAddress serverAddress = InetAddress.getByName("localhost");
-		DatagramPacket initialPacket = prepareInitialPacket(requestPacket, serverAddress);
-
-		clientSocket.send(initialPacket);
-		logger.sent(initialPacket.getData());
-
-		String fileContent = "";
-		int totalDataSize = 0;
-		boolean endOfFile = false;
-		int expectedSeqNo = 0;
-
-		while (!endOfFile) {
-			try {
+			while (true) {
 				DatagramPacket receivedPacket = receivePacket(clientSocket);
 				logger.received(receivedPacket.getData());
 
@@ -49,36 +35,30 @@ public class Receiver {
 
 				if (receivedPacketObj.getType() == PacketType.ERR) {
 					logger.info("An error occurred: " + new String(receivedPacketObj.getData()));
-					return;
+					break;
+				}
+
+				if (receivedPacketObj.getType() == PacketType.EOT) {
+					// Send acknowledgment for the EOT packet
+					sendAcknowledgement(receivedPacketObj.getSeqNo(), serverAddress, clientSocket);
+					break; // Exit the loop after sending acknowledgment for EOT packet
 				}
 
 				if (receivedPacketObj.getSeqNo() == expectedSeqNo) {
-					fileContent += new String(receivedPacketObj.getData());
+					fileContent.append(new String(receivedPacketObj.getData()));
 					totalDataSize += receivedPacketObj.getSize();
-
-					if (receivedPacketObj.getType() == PacketType.EOT) {
-						endOfFile = true;
-					}
 
 					sendAcknowledgement(expectedSeqNo, serverAddress, clientSocket);
 					expectedSeqNo = (expectedSeqNo + 1) % 4; // Move to the next expected sequence number
 				}
-			} catch (SocketTimeoutException e) {
-				logger.info("Timeout occurred while waiting for packet.");
-				// If packet expectedSeqNo is not received within timeout, retransmit the
-				// ACK for the current expected sequence number
-				sendAcknowledgement(expectedSeqNo, serverAddress, clientSocket);
 			}
+
+			clientSocket.close();
+			logger.info("File transfer complete. Total data size: " + totalDataSize + " bytes.");
+			System.out.println(fileContent.toString());
+		} catch (IOException e) {
+			handleException(e);
 		}
-
-		clientSocket.close();
-		logger.info("File transfer complete. Total data size: " + totalDataSize + " bytes.");
-		System.out.println(fileContent);
-	}
-
-	private DatagramPacket prepareInitialPacket(Packet requestPacket, InetAddress serverAddress) {
-		return new DatagramPacket(requestPacket.getBytes(), requestPacket.getBytes().length, serverAddress,
-				Settings.PORT);
 	}
 
 	private DatagramPacket receivePacket(DatagramSocket socket) throws IOException {

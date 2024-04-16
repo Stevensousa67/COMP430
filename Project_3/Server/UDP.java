@@ -1,11 +1,7 @@
 package Server;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
-import java.net.SocketTimeoutException;
+import java.net.*;
 
 import Common.MyLogger;
 import Common.Settings;
@@ -17,14 +13,17 @@ public class UDP {
 	private int clientPort = 0;
 	private InetAddress clientAddress;
 
-	private static boolean restarted = false;
 	private static int totalData = 0;
 	private static int totalDataWithHeader = 0;
 
 	public void createService() throws SocketException {
-		logger.info("Initializing Server on Port: " + Settings.PORT);
-		serverSocket = new DatagramSocket(Settings.PORT);
-		restarted = true;
+		try {
+			logger.info("Initializing Server on Port: " + Settings.PORT);
+			serverSocket = new DatagramSocket(Settings.PORT);
+		} catch (SocketException e) {
+			logger.error("Failed to initialize server socket", e);
+			throw e;
+		}
 	}
 
 	public byte[] getPacket(int timeout) throws SocketTimeoutException {
@@ -61,7 +60,6 @@ public class UDP {
 	}
 
 	public void reset() {
-		restarted = true;
 		clientPort = 0;
 	}
 
