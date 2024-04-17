@@ -1,0 +1,410 @@
+2024-04-16 21:20:16 INFO Log started for: Client.Main
+2024-04-16 21:20:16 INFO [Client.Main] Receiver started
+2024-04-16 21:20:16 INFO [Client.Receiver] Sending   -----> REQ packet for file: README.txt
+2024-04-16 21:20:17 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:17 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:17 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:17 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:18 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:18 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:18 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:18 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:18 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:18 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:19 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:19 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:19 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:19 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:19 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:20 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:20 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:21 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:21 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:21 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:21 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:21 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:21 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:22 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:22 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:22 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:22 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:22 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:22 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:24 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:24 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:24 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:24 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:24 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:24 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:25 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:25 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:25 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:25 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:25 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:25 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:26 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:26 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:26 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:26 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:27 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:27 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:27 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:27 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:28 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:28 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:28 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:28 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:28 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:28 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:29 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:29 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:29 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:29 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:30 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:30 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:30 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:30 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:31 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:31 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:31 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:31 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:31 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:31 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:32 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:32 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:32 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:32 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:32 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:33 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:33 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:34 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:34 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:34 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:34 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:34 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:34 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:35 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:35 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:35 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:35 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:35 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:35 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:36 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:36 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:36 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:36 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:37 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:37 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:37 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:37 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:38 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:38 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:38 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:38 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:38 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:38 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:39 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:39 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:39 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:39 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:40 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:40 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:40 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:40 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:41 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:41 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:41 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:41 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:41 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:41 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:42 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:42 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:42 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:42 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:42 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:43 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:43 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:44 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:44 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:44 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:44 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:44 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:44 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:45 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:45 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:45 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:45 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:45 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:45 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:47 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:47 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:47 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:47 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:47 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:47 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:48 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:48 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:48 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:48 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:48 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:48 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:49 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:49 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:49 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:49 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:50 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:50 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:50 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:50 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:51 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:51 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:51 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:51 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:51 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:51 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:52 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:52 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:52 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:52 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:52 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:53 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:53 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:54 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:54 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:54 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:54 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:54 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:54 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:55 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:55 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:55 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:55 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:55 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:55 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:57 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:57 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:57 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:57 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:57 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:57 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:58 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:58 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:58 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:58 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:58 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:58 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:20:59 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:20:59 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:20:59 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:20:59 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:00 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:00 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:00 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:00 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:01 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:02 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:03 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:03 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:04 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:21:04 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:21:04 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:21:04 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:04 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 9(bytes) of the file.
+2024-04-16 21:21:04 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:04 INFO [Client.Receiver] Received   <----- EOT packet 
+2024-04-16 21:21:04 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 3
+2024-04-16 21:21:05 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:05 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 0
+2024-04-16 21:21:05 INFO [Client.Receiver] Received   <----- DAT packet seqNo: 1, containing 9(bytes) of the file.
+2024-04-16 21:21:05 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 1
+2024-04-16 21:21:05 INFO [Client.Receiver] Received   <----- EOT packet 
+2024-04-16 21:21:05 INFO [Client.Receiver] Sending   -----> ACK packet for sequence number: 2
+2024-04-16 21:21:05 INFO [Client.Receiver] File transfer complete. Total data size: 2137 bytes.

@@ -38,18 +38,19 @@ public class Receiver {
 					break;
 				}
 
-				if (receivedPacketObj.getType() == PacketType.EOT) {
-					// Send acknowledgment for the EOT packet
-					sendAcknowledgement(receivedPacketObj.getSeqNo(), serverAddress, clientSocket);
-					break; // Exit the loop after sending acknowledgment for EOT packet
-				}
-
 				if (receivedPacketObj.getSeqNo() == expectedSeqNo) {
 					fileContent.append(new String(receivedPacketObj.getData()));
 					totalDataSize += receivedPacketObj.getSize();
 
+					if (receivedPacketObj.getType() == PacketType.EOT) {
+						sendAcknowledgement(expectedSeqNo, serverAddress, clientSocket);
+						break;
+					}
+
 					sendAcknowledgement(expectedSeqNo, serverAddress, clientSocket);
-					expectedSeqNo = (expectedSeqNo + 1) % 4; // Move to the next expected sequence number
+					expectedSeqNo = (expectedSeqNo + 1) % 4;
+				} else {
+					sendAcknowledgement((expectedSeqNo - 1 + 4) % 4, serverAddress, clientSocket);
 				}
 			}
 

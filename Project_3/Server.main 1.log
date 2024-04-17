@@ -1,0 +1,670 @@
+2024-04-16 21:20:15 INFO Log started for: Server.main
+2024-04-16 21:20:15 INFO [Server.main] Starting
+2024-04-16 21:20:15 INFO [Server.main] Skipping First Packet in Window: true
+2024-04-16 21:20:15 INFO [Server.main] Skipping All Packets in Window:  false
+2024-04-16 21:20:15 INFO [Server.UDP] Initializing Server on Port: 2015
+2024-04-16 21:20:16 INFO [Server.UDP] Received   <----- REQ packet for file: README.txt
+2024-04-16 21:20:16 INFO [Server.UDP] Connection established with client: /127.0.0.1, Port:59201
+2024-04-16 21:20:16 INFO [Server.Sender] Initiating File Transmission: README.txt, Size: 2137(bytes)
+2024-04-16 21:20:16 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:17 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:17 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:17 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:17 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:17 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:17 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:18 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:18 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:18 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:18 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:18 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:18 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:18 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:18 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:18 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:18 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:18 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:18 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:18 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:18 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:19 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:19 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:19 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:19 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:19 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:19 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:19 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:19 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:19 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:19 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:20 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:20 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:20 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:20 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:20 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:20 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:21 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:21 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:21 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:21 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:21 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:21 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:21 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:21 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:21 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:21 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:21 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:21 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:21 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:21 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:22 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:22 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:22 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:22 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:22 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:22 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:22 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:22 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:22 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:22 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:22 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:23 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:23 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:23 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:23 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:24 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:24 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:24 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:24 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:24 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:24 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:24 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:24 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:24 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:24 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:24 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:24 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:24 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:24 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:25 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:25 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:25 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:25 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:25 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:25 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:25 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:25 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:25 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:25 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:25 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:25 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:25 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:25 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:26 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:26 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:26 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:26 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:26 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:26 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:26 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:27 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:27 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:27 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:27 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:27 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:27 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:27 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:27 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:27 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:27 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:28 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:28 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:28 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:28 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:28 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:28 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:28 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:28 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:28 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:28 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:28 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:28 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:28 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:28 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:29 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:29 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:29 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:29 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:29 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:29 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:29 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:29 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:30 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:30 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:30 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:30 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:30 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:30 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:30 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:30 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:31 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:31 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:31 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:31 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:31 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:31 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:31 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:31 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:31 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:31 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:31 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:31 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:31 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:31 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:32 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:32 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:32 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:32 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:32 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:32 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:32 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:32 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:32 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:32 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:33 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:33 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:33 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:33 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:33 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:33 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:34 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:34 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:34 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:34 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:34 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:34 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:34 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:34 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:34 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:34 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:34 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:34 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:34 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:34 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:35 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:35 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:35 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:35 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:35 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:35 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:35 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:35 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:35 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:35 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:35 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:35 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:35 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:35 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:36 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:36 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:36 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:36 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:36 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:36 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:36 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:37 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:37 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:37 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:37 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:37 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:37 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:37 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:37 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:37 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:37 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:38 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:38 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:38 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:38 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:38 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:38 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:38 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:38 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:38 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:38 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:38 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:38 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:38 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:38 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:39 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:39 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:39 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:39 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:39 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:39 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:39 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:39 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:40 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:40 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:40 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:40 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:40 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:40 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:40 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:40 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:41 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:41 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:41 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:41 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:41 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:41 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:41 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:41 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:41 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:41 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:41 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:41 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:41 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:41 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:42 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:42 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:42 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:42 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:42 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:42 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:42 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:42 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:42 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:42 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:43 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:43 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:43 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:43 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:43 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:43 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:44 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:44 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:44 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:44 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:44 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:44 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:44 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:44 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:44 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:44 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:44 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:44 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:44 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:44 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:45 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:45 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:45 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:45 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:45 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:45 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:45 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:45 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:45 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:45 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:45 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:46 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:46 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:46 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:47 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:47 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:47 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:47 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:47 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:47 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:47 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:47 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:47 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:47 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:47 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:47 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:47 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:47 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:48 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:48 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:48 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:48 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:48 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:48 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:48 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:48 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:48 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:48 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:48 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:48 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:48 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:48 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:49 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:49 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:49 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:49 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:49 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:49 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:49 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:49 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:50 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:50 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:50 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:50 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:50 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:50 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:50 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:50 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:51 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:51 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:51 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:51 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:51 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:52 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:52 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:52 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:52 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:52 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:52 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:52 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:52 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:52 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:52 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:53 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:53 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:53 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:53 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:53 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:53 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:54 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:54 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:54 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:54 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:54 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:54 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:54 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:54 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:54 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:54 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:54 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:54 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:54 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:54 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:55 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:55 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:55 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:55 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:55 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:56 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:56 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:56 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:57 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:57 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:57 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:57 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:57 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:57 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:57 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:58 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:58 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:58 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:20:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:20:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:58 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:58 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:58 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:20:58 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:20:59 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:20:59 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:20:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:20:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:20:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:20:59 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:20:59 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:20:59 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:21:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:21:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:00 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:00 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:00 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:00 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:01 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:21:01 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:21:01 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:21:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:01 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:01 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:01 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:01 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:02 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:21:02 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:21:02 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:21:02 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:21:02 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:03 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:03 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:03 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:03 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:04 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:21:04 INFO [Server.PacketManager] Resending DAT from window slot: 2
+2024-04-16 21:21:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:21:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:21:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:21:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2024-04-16 21:21:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:21:04 INFO [Server.PacketManager] ==========> Skipping packet to simulate data loss of first packet
+2024-04-16 21:21:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:21:04 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 9(bytes) of the file.
+2024-04-16 21:21:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:04 INFO [Server.UDP] Sending   -----> EOT packet 
+2024-04-16 21:21:04 INFO [Server.Sender] Data transmission complete, awaiting outstanding ACKs
+2024-04-16 21:21:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:04 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:04 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2024-04-16 21:21:04 WARNING [Server.PacketManager] Received an unexpected ACK. Expected: 0 but received an ACK for: 3
+2024-04-16 21:21:05 WARNING [Server.PacketManager] Missing ACK for packet 0 resending cached window.
+2024-04-16 21:21:05 INFO [Server.PacketManager] Resending DAT from window slot: 0
+2024-04-16 21:21:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2024-04-16 21:21:05 INFO [Server.PacketManager] Resending DAT from window slot: 1
+2024-04-16 21:21:05 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 9(bytes) of the file.
+2024-04-16 21:21:05 INFO [Server.PacketManager] Resending EOT from window slot: 2
+2024-04-16 21:21:05 INFO [Server.UDP] Sending   -----> EOT packet 
+2024-04-16 21:21:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2024-04-16 21:21:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2024-04-16 21:21:05 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2024-04-16 21:21:05 INFO [Server.Sender] File Sent. Total Bytes: 2137(bytes)
+2024-04-16 21:21:05 INFO [Server.PacketManager] Packet Manager:
+2024-04-16 21:21:05 INFO [Server.PacketManager]     Expected Number of Sent Packets:      135
+2024-04-16 21:21:05 INFO [Server.PacketManager]     Number of packets Resent:             102
+2024-04-16 21:21:05 INFO [Server.PacketManager]     Breakdown:
+2024-04-16 21:21:05 INFO [Server.PacketManager]         Number of ACK Packets:              0
+2024-04-16 21:21:05 INFO [Server.PacketManager]         Number of REQ Packets:              0
+2024-04-16 21:21:05 INFO [Server.PacketManager]         Number of DAT Packets:            235
+2024-04-16 21:21:05 INFO [Server.PacketManager]         Number of ERR Packets:              0
+2024-04-16 21:21:05 INFO [Server.PacketManager]         Number of EOT Packets:              2
+2024-04-16 21:21:05 INFO [Server.PacketManager]     Total Number of Packets Sent:         237
+2024-04-16 21:21:05 INFO [Server.PacketManager] 
+2024-04-16 21:21:05 INFO [Server.PacketManager]     Number of ACKs received:              203
+2024-04-16 21:21:05 INFO [Server.PacketManager]     Number of unexpected ACKs received:    68
+2024-04-16 21:21:05 INFO [Server.PacketManager] 
+2024-04-16 21:21:05 INFO [Server.UDP] Total Data: 3202
+2024-04-16 21:21:05 INFO [Server.UDP] Total Data Including Packet Headers: 5638
